@@ -29,7 +29,7 @@
                     </div>
                     {% if detail_partner %}
                     <h3 class="card-title">Harvest Report {{harvest_type}}</h3>
-                    <table class="table table-bordered" id="laporanmitra">
+                    <table class="table table-bordered" id="partnerreport">
                         <thead class="table-light">
                             <tr>
                                 <td>No</td>
@@ -97,12 +97,12 @@
                         </tbody>
                         <tr>
                             <th colspan="8"  style="text-align:center;">Grand Total</th>
-                            <td><b>Rp{{grandtotal}}</b></td>
+                            <td><b>Rp{{grand_total}}</b></td>
                         </tr>
                     </table>
                     {% elif detail_local %}
                     <h1 class="card-title">Harvest Report {{harvest_type}}</h1>
-                    <table class="table table-bordered" id="laporanlokal">
+                    <table class="table table-bordered" id="localreport">
                         <thead class="table-light">
                             <tr>
                                 <td>No</td>
