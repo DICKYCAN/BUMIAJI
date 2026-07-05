@@ -324,7 +324,7 @@ def create_sale(request):
         })
 
     else:
-        market = request.POST.get('market_id')
+        market = request.POST.get('market')
         date = request.POST.get('date')
 
         product_qty = request.POST.getlist('product_qty')
