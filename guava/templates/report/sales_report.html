@@ -63,10 +63,10 @@
                                 </td>
                                 <td>
                                     {% for detail in item.1 %}
-                                        {% if detail.commodity_id.purchase_price == None %}
+                                        {% if detail.commodity_id.selling_price == None %}
                                         <h6>-</h6>
                                         {% else %}
-                                        <h6>Rp{{detail.commodity_id.purchase_price}}</h6>
+                                        <h6>Rp{{detail.commodity_id.selling_price}}</h6>
                                         {% endif %}
                                     {% endfor %}
                                 </td>
